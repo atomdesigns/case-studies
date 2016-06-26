@@ -664,6 +664,8 @@ figcaption a:link, a:active {
 .right-container {
   background-color: #33303a;
   box-shadow: inset 0px 0px 17px 7px rgba(27, 22, 22, 0.9);
+  height: 470px;
+  padding: 25px;
 }
 .left-container {
   background-color: #fff;
@@ -850,6 +852,9 @@ h5.blocbox-link {
 .label-title{
   background-color: #000;
   color: white;
+  margin-top: 30px;
+  width: 300px;
+  height: 60px;
 }
 .user-testing .label-title{
   background:  #373535;
