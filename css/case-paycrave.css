@@ -687,7 +687,7 @@ figcaption a:link, a:active {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   width: 80%;
-  font-size: 25px;
+  font-size: 22px;
   padding-top: 32px;
   padding-left: 12px;
   padding-bottom: 20px;
@@ -749,7 +749,7 @@ h5.blocbox-link {
 .wireframes .thumb_button{
 	float:left;
 	background: rgba(243, 182, 182, 0.5);
-	margin: -50px 0 -90px 40px;  
+	margin: -50px 0 -90px 17em;  
 }
 .sketches .label-title{
 	background:#6c6a6a;
@@ -811,7 +811,7 @@ h5.blocbox-link {
 }
 .wireframes p,
 .mockups p{
-	font-family:open sans;}
+	font-family:'roboto', sans-serif}
 .wireframes .bx_left{
 	width:32%;
 	margin: 80px 0 0;}
@@ -819,7 +819,7 @@ h5.blocbox-link {
   border-left: 5px solid #fff;
 	width:32%;
   border-radius: 5px;
-	margin: 10em 0px 0px 70px;
+	margin: 7em 0px 0px 70px;
 }
 .wireframes .bx_left p{
   padding: 0px;
@@ -827,7 +827,7 @@ h5.blocbox-link {
   margin: 0px;
   width: 100%;
   height: 200px;
-  font-size: 25px;
+  font-size: 22px;
   font-family: 'roboto', sans-serif;
 }
 .wireframes .bx_right{
@@ -996,6 +996,7 @@ body {
     float: left;
     padding: 0 0 0 15px;
     width: 32%;
+    margin-top: -30px;
 }
 .box_right p {
   font-family: 'roboto', sans-serif;
@@ -1006,14 +1007,15 @@ body {
     margin: 0;
   overflow:hidden;
   padding: 0 48px 0 48px;
-  height: 180px;
+  height: 170px;
   margin-top: -50px;
+  width: 100%;
 }
 #carousel2 {
   background: hsl(0,1%,30%) none repeat scroll 0 0;
   overflow: hidden;
   padding: 0 48px;
-  height: 200px;
+  height: 170px;
 }
 #carousel3 {
     background: hsl(0, 1%, 30%) none repeat scroll 0 0;
@@ -1518,7 +1520,7 @@ html[xmlns] .flexslider .slides {
  }
  .user-testing-description .first-paragraph p{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 0;
   width: 90%;
   padding: 40px;
@@ -1536,7 +1538,7 @@ html[xmlns] .flexslider .slides {
   width: 90%;
   padding: 0px 40px 60px;
   margin-bottom: 0px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .conclusion {
 
@@ -1544,7 +1546,7 @@ html[xmlns] .flexslider .slides {
 .conclusion-description .first-paragraph {
 
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 0;
   padding: 40px;
 }
@@ -1557,7 +1559,7 @@ html[xmlns] .flexslider .slides {
 .conclusion-description .first-paragraph p{
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 0;
   width: 90%;
   padding: 40px;
