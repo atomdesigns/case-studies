@@ -809,6 +809,7 @@ h5.blocbox-link {
 	font-family:'roboto', sans-serif;
   font-size: 22px;
   height: 100px;
+  padding: 20px;
   }
 .wireframes .bx_left{
   border-left: 5px solid #fff;
