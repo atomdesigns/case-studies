@@ -749,7 +749,7 @@ h5.blocbox-link {
 .wireframes .thumb_button{
 	float:left;
 	background: rgba(243, 182, 182, 0.5);
-	margin: 0px 0 -35px 40px;  
+	margin: -50px 0 -90px 40px;  
 }
 .sketches .label-title{
 	background:#6c6a6a;
@@ -807,6 +807,7 @@ h5.blocbox-link {
 	-webkit-transform: scale(1.1); }
 .text-center{
 	text-align:center;
+
 }
 .wireframes p,
 .mockups p{
@@ -818,12 +819,16 @@ h5.blocbox-link {
   border-left: 5px solid #fff;
 	width:32%;
   border-radius: 5px;
-	margin: 50px 0px 0px 70px;
+	margin: 10em 0px 0px 70px;
 }
 .wireframes .bx_left p{
   padding: 0px;
   display: block;
   margin: 0px;
+  width: 100%;
+  height: 200px;
+  font-size: 25px;
+  font-family: 'roboto', sans-serif;
 }
 .wireframes .bx_right{
 	width:55%;
@@ -982,6 +987,7 @@ body {
     margin: 0;
     padding: 0 25px 0 55px;
     width: 55%;
+    margin-top: -50px;
 }
 .bx_left img{
   
@@ -991,12 +997,17 @@ body {
     padding: 0 0 0 15px;
     width: 32%;
 }
+.box_right p {
+  font-family: 'roboto', sans-serif;
+  font-size: 25px;
+}
 #carousel1{
     background: hsl(0, 1%, 30%) none repeat scroll 0 0;
     margin: 0;
   overflow:hidden;
   padding: 0 48px 0 48px;
-  height: 200px;
+  height: 180px;
+  margin-top: -50px;
 }
 #carousel2 {
   background: hsl(0,1%,30%) none repeat scroll 0 0;
@@ -1010,7 +1021,8 @@ body {
   overflow:hidden;
   padding: 0 48px 0 48px;
   margin-top: -4em;
-  height: 200px;
+  height: 180px;
+  width: 100%;
 }
 #carousel4 {
   background: hsl(0, 1%, 30%) none repeat scroll 0 0;
@@ -1050,13 +1062,13 @@ body .flex-direction-nav .flex-disabled{
    z-index: 0;
 }
 ul.flex-direction-nav .flex-prev{
-  background: url(../images/icons/nev-left.png) no-repeat;
+  background: url(../images/icons/nev-left-blue.png) no-repeat;
   background-size: 20px;
   left:15px;
   opacity:1 !important;
 }
 ul.flex-direction-nav .flex-next{
-  background: url(../images/icons/nev-right.png) no-repeat;
+  background: url(../images/icons/nev-right-blue.png) no-repeat;
   background-size: 20px;
   right:15px;
   width: 20px;
@@ -1099,7 +1111,7 @@ body .flex-control-paging li a {
     text-align: center;
     width: -moz-fit-content;
   font-family: sans-serif;
-  margin: 50px 40px -65px 0;
+  margin: 10px 40px -65px 0;
 }
 .thumb_button span {
     display: block;
@@ -1209,11 +1221,11 @@ font-style: normal}
   display: block;
 }
 #slider1 .slides img {
-  width: 40%;
+  width: 36%;
   display: block;
 }
 #slider2 .slides img {
-  width: 45%;
+  width: 36%;
   display: block;
 }
 .flexslider .slides:after {
@@ -1453,6 +1465,7 @@ html[xmlns] .flexslider .slides {
   background-color: #373535;
   color: white;
   margin-top: 50px;
+  padding: 40px;
 }
 .research-description p {
   font-family: 'Roboto Condensed', sans-serif;
@@ -1501,6 +1514,7 @@ html[xmlns] .flexslider .slides {
  }
  .user-testing-description .first-paragraph{
   background: #373535;
+  padding: 40px 40px 20px;
  }
  .user-testing-description .first-paragraph p{
   font-family: 'Roboto Condensed', sans-serif;
@@ -1511,6 +1525,7 @@ html[xmlns] .flexslider .slides {
 }
 .second-paragraph{
   background: #373535;
+  padding: 0 40px 20px;
 }
 .second-paragraph p{
   font-family: 'Roboto Condensed', sans-serif;
@@ -1531,6 +1546,7 @@ html[xmlns] .flexslider .slides {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
   margin-bottom: 0;
+  padding: 40px;
 }
 .conclusion .label-title {
   font-size: 20px;
