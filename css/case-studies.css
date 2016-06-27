@@ -754,6 +754,7 @@ h5.blocbox-link {
 .more-case .label-title{
 	background:#35608d;
 	margin-top:50px;
+  width: 400px;
 }
 #slider1 .flex-direction-nav,
 #slider2 .flex-direction-nav,
@@ -800,6 +801,8 @@ h5.blocbox-link {
 	-webkit-transform: scale(1.1); }
 .text-center{
 	text-align:center;
+  width: 45%;
+  margin-bottom: 100px;
 }
 .wireframes p,
 .mockups p{
@@ -998,6 +1001,7 @@ body {
 #carousel4 {
   background: hsl(0, 1%, 30%) none repeat scroll 0 0;
   overflow: hidden;
+  margin-left: 50px;
 }
 #carousel1 .flex-viewport ul.slides img,
 #carousel2 .flex-viewport ul.slides img,
@@ -1511,7 +1515,7 @@ width: 90%;
   padding: 40px;
 }
 .conclusion {
-  background: black;
+  background: white;
 }
 .conclusion-description .first-paragraph {
   width: 90%;
